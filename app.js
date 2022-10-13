@@ -284,7 +284,7 @@ function comprar(e){
     },
     willClose: () => {
       clearInterval(timerInterval)
-      window.location.href = "/index.html"
+      window.location.href = "./index.html"
     }
   })    
   carrito = {}  
